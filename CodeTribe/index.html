@@ -2,10 +2,88 @@
 <html>
     <head>
         <title>Portofolio Website</title>
+        <style type="text/css">
+            *{
+                text-decoration: none;
+            }
+            body{
+                margin: 0;
+                padding: 0;
+                background: gray;
+            }
+            .navbar{
+                background: black;
+                font-family:Arial, Helvetica, sans-serif; 
+                padding-right: 15px; 
+                padding-left: 350px;
+            }
+            .navdiv{
+                display: flex; 
+                align-items: center; 
+                justify-content: space-between;
+            }
+            .logo{
+                position: absolute;
+                height: auto;
+                left: 40px;
+                width: 50px;
+                margin-top: -25px;
+                box-sizing: border-box;
+            }
+            li{
+                list-style: none;
+                display: inline-block;
+            }
+            li a{
+                color: white;
+                font-size: 18px;
+                font-weight: bold;
+                margin-right: 25px;
+            }
+            button{
+                background-color: black;
+                margin-left: 10px;
+                border-radius: 10px;
+                padding: 10px;
+                width: 90px;
+            }
+            button a{
+                color: white;
+                font-weight: bold;
+                font-size: 15px;
+            }
+            details img{
+                margin-right: 0px;
+                right: 100px;
+            }
+        </style>
     </head>
     <body>
         <nav class="navbar">
             <div class="navdiv">
+                <a href="#">
+                    <img src="LogoMb.jpeg" class="logo">
+                </a>
+            
+
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About me</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
         </nav>
+        <div class="video">
+            <img src="code.jpeg" width="800"></img>
+        </div>
+        <hr>
+        <div class="details">
+            <H1>Arehone Mbadaliga</H1>
+            <h4><bold>My bio - </bold> I'm Arehone, age 24. I am a computer science student from
+                the University of Limpopo.</h4>
+            <h4> I'm mostly focused on Cybersecurity and Computer Networking and i spend most of my time doing online courses.
+            mostly focused </h4>
+            <img src="mbakz.jpeg" width="200"> </img>
+        </div>
     </body>
 </html>
