@@ -2,6 +2,9 @@
 <html>
     <head>
         <title>Portofolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
         <style type="text/css">
             *{
                 text-decoration: none;
@@ -72,8 +75,8 @@
                 
             }
             .wrapper{
-                width: 300px;
-                height: 300px;
+                width: 150px;
+                height: 150px;
                 float: right;
                 margin-top: -210px;
                 
@@ -82,9 +85,31 @@
                 width: 100%;
                 clip-path: circle();
             }
+            .footer{
+                background-color: black;
+                justify-content: space-between;
+            }
+            .fa-x-twitter{
+                font-size: 40px;
+            }
+            .fa-facebook{
+                font-size: 40px;
+            }
+            .fa-instagram{
+                font-size: 40px;
+            }
+            i{
+                padding: 15px;
+            }
+            .footer iframe{
+                float: right;
+                margin-top: -120px;
+            }
+
         </style>
     </head>
     <body>
+        <header>
         <nav class="navbar">
             <div class="navdiv">
                 <a href="#">
@@ -95,9 +120,10 @@
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About me</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="ContactUs.html">Contact Us</a></li>
                 </ul>
             </div>
+        </header>
         </nav>
         <div class="Myimg">
             <img src="code.jpeg" alt="Big image" ></img>
@@ -112,6 +138,22 @@
             <div class="wrapper">
             <img src="mbakz.jpeg" alt="My image"> </img>
             </div>
+        </div>
+        <div class="footer">
+            <footer>
+                <p1 style="color: whitesmoke;">Address: Mankweng University Road</p1><br>
+                <p1 style="color: black;">Address</p1>
+                <br>
+                <a href="https://twitter.com/RazKabm"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3648.0878005
+                    949457!2d29.73532697519183!3d-23.886505078577816!2m3!1f0!2f0!3f0!3m2!1i1024!2i76
+                    8!4f13.1!3m3!1m2!1s0x1ec6c8c19a5cede1%3A0xcbcd2502e40cea5e!2sUniversity%20of%20
+                    Limpopo%2C%20Mankweng!5e0!3m2!1sen!2sza!4v1712520247872!5m2!1sen!2sza" width="120" 
+                    height="70" style="border:50%;" allowfullscreen="" loading="lazy" referrerpolicy=
+                    "no-referrer-when-downgrade" ></iframe></p>
+            </footer>
         </div>
         
     </body>
