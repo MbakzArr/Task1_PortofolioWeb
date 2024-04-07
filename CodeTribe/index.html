@@ -25,10 +25,10 @@
             .logo{
                 position: absolute;
                 height: auto;
-                left: 40px;
+                left: 50px;
                 width: 50px;
                 margin-top: -25px;
-                box-sizing: border-box;
+                border-radius: 50%;
             }
             li{
                 list-style: none;
@@ -52,9 +52,35 @@
                 font-weight: bold;
                 font-size: 15px;
             }
-            details img{
+            .details{
                 margin-right: 0px;
-                right: 100px;
+                justify-content: right;
+                
+                
+            }
+            .Myimg{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+
+            }
+            .Myimg img{
+                width: 400px;
+                height: 400px;
+                margin-right: 50px;
+                
+            }
+            .wrapper{
+                width: 300px;
+                height: 300px;
+                float: right;
+                margin-top: -210px;
+                
+            }
+            .wrapper img{
+                width: 100%;
+                clip-path: circle();
             }
         </style>
     </head>
@@ -73,17 +99,20 @@
                 </ul>
             </div>
         </nav>
-        <div class="video">
-            <img src="code.jpeg" width="800"></img>
+        <div class="Myimg">
+            <img src="code.jpeg" alt="Big image" ></img>
         </div>
         <hr>
         <div class="details">
             <H1>Arehone Mbadaliga</H1>
             <h4><bold>My bio - </bold> I'm Arehone, age 24. I am a computer science student from
-                the University of Limpopo.</h4>
-            <h4> I'm mostly focused on Cybersecurity and Computer Networking and i spend most of my time doing online courses.
-            mostly focused </h4>
-            <img src="mbakz.jpeg" width="200"> </img>
+                the <br> University of Limpopo. I'm mostly focused on Cybersecurity<br>
+                 and Computer Networking and i spend most of my time doing online courses.
+             </h4>
+            <div class="wrapper">
+            <img src="mbakz.jpeg" alt="My image"> </img>
+            </div>
         </div>
+        
     </body>
 </html>
