@@ -8,79 +8,60 @@
 	<link rel="stylesheet"
 		href="ContactUs.css">
 	<title>Contact us Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
 	<!-- Header section -->
 	<header>
-		<button class="hamburger" id="hamburger-icon">
-			<span onclick="openNavbar()"> ☰</span>
-		</button>
-		<div class="logo">Your Logo</div>
-		<nav id="nav-menu">
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Enquiry</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Services</a></li>
-			</ul>
-		</nav>
-		<button class="reachUs-button">Call us</button>
-	</header>
+        <nav class="navbar">
+            <div class="navdiv">
+                <a href="#">
+                    <img src="LogoMb.jpeg" class="logo">
+                </a>
+            
 
-	<!-- banner section -->
-	<section class="banner">
-		<img src=
-"https://media.geeksforgeeks.org/wp-content/uploads/20230822131732/images.png"
-			alt="Welcome to our Contact Us page">
-		<h1>Get in Touch With Us</h1>
-		<p>
-		We're here to answer any questions you may have.
-		</p>
-	</section>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="AboutMe.html">About me</a></li>
+                    <li><a href="ContactUs.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </header>
 
-	<!-- Contact form -->
-	<section class="contact-form">
-		<div class="form-container">
-			<h2>Your Details</h2>
-			<form action="#" method="POST">
-
-				<label for="name">Name: </label>
-				<input type="text" id="name" name="name" required>
-
-				<label for="email">Email: </label>
-				<input type="email" id="email" name="email" required>
-
-				<label for="phone">Phone: </label>
-				<input type="tel" id="phone" name="phone">
-
-				<label for="message">Message: </label>
-				<textarea id="message" name="message" rows="4" required></textarea>
-
-				<button type="submit" class="submit-button">Submit</button>
-			</form>
-		</div>
-	</section>
-
-	<!-- Company contact info -->
-	<section class="contact-info">
-		<h2>Contact Information</h2>
-		<address>
-			Your Company Name<br>
-			123 Main Street<br>
-			City, State Zip Code<br>
-			Phone: <a href="tel:1234567890">123-456-7890</a><br>
-			Email: <a href="mailto:info@example.com">info@example.com</a>
-		</address>
-	</section>
+        <div class="contact">
+        <i class="fa-brands fa-whatsapp"></i><p1>Whatsapp: 076 171 4986</p1><br>
+        <i class="fa-solid fa-phone"></i><p1>Call: 076 171 4986</p1><br>
+        <a href="mailto:mbadaligab@gmail.com"><i class="fa-solid fa-envelope"></i><p1>Email: Mbadaligab@gmail.com</p1></a>
+        <p1></p1>
+        </div>
+        
+	
 
 	<!-- Footer section -->
-	<footer>
-		<p>
-		© 2023 Your Company. All rights reserved.
-		</p>
-	</footer>
-	<script src="script.js"></script>
+	<div class="footer">
+        <footer>
+            <address style="color: aliceblue;">
+                Mbadaliga Arehone<br>
+                Mankweng, Turfloop, University Road<br>
+                Polokwane 0727<br>
+                Phone: <a href="cell: 076 171 4986">076 171 4986</a><br>
+                Email: <a href="mailto:mbadaligab@gmail.com">mbadaligab@gmail.com</a>
+            </address>
+            <br>
+            <a href="https://twitter.com/RazKabm"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+            <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3648.0878005
+                949457!2d29.73532697519183!3d-23.886505078577816!2m3!1f0!2f0!3f0!3m2!1i1024!2i76
+                8!4f13.1!3m3!1m2!1s0x1ec6c8c19a5cede1%3A0xcbcd2502e40cea5e!2sUniversity%20of%20
+                Limpopo%2C%20Mankweng!5e0!3m2!1sen!2sza!4v1712520247872!5m2!1sen!2sza" width="120" 
+                height="70" style="border:50%;" allowfullscreen="" loading="lazy" referrerpolicy=
+                "no-referrer-when-downgrade" ></iframe></p>
+        </footer>
+    </div>
 </body>
 
 </html>
