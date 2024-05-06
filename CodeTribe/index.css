@@ -1,23 +1,45 @@
 *{
     text-decoration: none;
 }
+
 body{
     margin: 0;
     padding: 0;
     background: gray;
+    background-image: url('back.jpg');
+    background-size: cover; /* This ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
 }
-.navbar{
+.navbar {
     background: black;
     font-family:Arial, Helvetica, sans-serif; 
     padding-right: 15px; 
     padding-left: 350px;
 }
-.navdiv{
-    display: flex; 
-    align-items: center; 
+
+.navbar .navdiv {
+    display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-.logo{
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.navbar ul li a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo {
     position: absolute;
     height: auto;
     left: 50px;
@@ -25,75 +47,78 @@ body{
     margin-top: -25px;
     border-radius: 50%;
 }
-li{
-    list-style: none;
-    display: inline-block;
+
+.about-section {
+    padding: 50px;
 }
-li a{
-    color: white;
-    font-size: 18px;
-    font-weight: bold;
-    margin-right: 25px;
+
+.about-section h1 {
+    text-align: center;
 }
-button{
-    background-color: black;
-    margin-left: 10px;
-    border-radius: 10px;
-    padding: 10px;
-    width: 90px;
-}
-button a{
-    color: white;
-    font-weight: bold;
-    font-size: 15px;
-}
-.details{
+
+.details {
     margin-right: 0px;
     justify-content: right;
-    
-    
 }
-.Myimg{
+
+.Myimg {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-
 }
-.Myimg img{
+
+.Myimg img {
     width: 400px;
     height: 400px;
     margin-right: 50px;
-    
 }
-.wrapper{
+
+.wrapper {
     width: 140px;
     height: 140px;
     float: right;
     margin-top: -190px;
-    
 }
-.wrapper img{
+
+.wrapper img {
     width: 100%;
     clip-path: circle();
 }
-.footer{
-    background-color: black;
-    justify-content: space-between;
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
 }
-.fa-x-twitter{
+
+.footer address {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    color: white;
+    margin: 0 5px;
+}
+
+.social-links a:hover {
+    color: #ccc;
+}
+
+.fa-x-twitter,
+.fa-facebook,
+.fa-instagram {
     font-size: 40px;
-}
-.fa-facebook{
-    font-size: 40px;
-}
-.fa-instagram{
-    font-size: 40px;
-}
-i{
     padding: 15px;
 }
-.footer iframe{
+
+i {
+    padding: 15px;
+}
+
+.footer iframe {
     float: right;
     margin-top: -120px;
 }
+

@@ -5,6 +5,9 @@ body{
     margin: 0;
     padding: 0;
     background: gray;
+    background-image: url('back.jpg');
+    background-size: cover; /* This ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
 }
 .navbar{
     background: black;
@@ -12,10 +15,17 @@ body{
     padding-right: 15px; 
     padding-left: 350px;
 }
-.navdiv{
-    display: flex; 
-    align-items: center; 
+.navbar .navdiv {
+    display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.navbar ul {
+    list-style-type: none;
+}
+.navbar ul li {
+    display: inline-block;
+    margin-right: 25px;
 }
 .logo{
     position: absolute;
@@ -25,38 +35,55 @@ body{
     margin-top: -25px;
     border-radius: 50%;
 }
-li{
-    list-style: none;
-    display: inline-block;
-}
-li a{
+
+.navbar ul li a {
     color: white;
     font-size: 18px;
     font-weight: bold;
-    margin-right: 25px;
-}
-
-.footer{
-    background-color: black;
-    justify-content: space-between;
-}
-.fa-x-twitter{
-    font-size: 40px;
-}
-.fa-facebook{
-    font-size: 40px;
-}
-.fa-instagram{
-    font-size: 40px;
-}
-i{
-    padding: 15px;
-}
-.footer iframe{
-    float: right;
-    margin-top: -120px;
+    text-decoration: none;
 }
 .form {
     width: 50%;
     margin: 0 auto;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer address {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    color: white;
+    margin: 0 5px;
+}
+
+.social-links a:hover {
+    color: #ccc;
+}
+
+.fa-x-twitter {
+    font-size: 40px;
+}
+
+.fa-facebook {
+    font-size: 40px;
+}
+
+.fa-instagram {
+    font-size: 40px;
+}
+
+i {
+    padding: 15px;
+}
+
+.footer iframe {
+    float: right;
+    margin-top: -120px;
 }
