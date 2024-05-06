@@ -30,7 +30,20 @@
                 </ul>
             </div>
         </header>
+    <div class="form">
+        <form action="/submit_contact_form" method="post">
+            <label for="name">Name and Surname:</label><br>
+            <input type="text" id="name" name="name" required><br>
 
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
         <div class="contact">
         <i class="fa-brands fa-whatsapp"></i><p1>Whatsapp: 076 171 4986</p1><br>
         <i class="fa-solid fa-phone"></i><p1>Call: 076 171 4986</p1><br>

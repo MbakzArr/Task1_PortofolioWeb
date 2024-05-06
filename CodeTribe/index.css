@@ -47,6 +47,36 @@ button a{
     font-weight: bold;
     font-size: 15px;
 }
+.details{
+    margin-right: 0px;
+    justify-content: right;
+    
+    
+}
+.Myimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+.Myimg img{
+    width: 400px;
+    height: 400px;
+    margin-right: 50px;
+    
+}
+.wrapper{
+    width: 140px;
+    height: 140px;
+    float: right;
+    margin-top: -190px;
+    
+}
+.wrapper img{
+    width: 100%;
+    clip-path: circle();
+}
 .footer{
     background-color: black;
     justify-content: space-between;
@@ -66,9 +96,4 @@ i{
 .footer iframe{
     float: right;
     margin-top: -120px;
-}
-#bio {
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
 }
