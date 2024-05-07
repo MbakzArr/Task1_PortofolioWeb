@@ -30,7 +30,7 @@
         </div>
         <hr>
         <div class="details">
-            <H1>Arehone Mbadaliga</H1>
+            <h1 style="color: rgb(22, 1, 42);">Arehone Mbadaliga</h1>
             <h4><bold>My bio - </bold> I'm Arehone, age 24. I am a computer science student from
                 the <br> University of Limpopo. I'm mostly focused on Cybersecurity<br>
                  and Computer Networking and i spend most of my time doing online courses.
@@ -61,6 +61,15 @@
                     "no-referrer-when-downgrade" ></iframe></p>
             </footer>
         </div>
-        <script src="Javascript.js"></script>
+        <script src="index.js"></script>
+    <script>
+        // HTML elements with JavaScript variables
+        document.getElementById('bio').innerText = bio;
+        document.getElementById('address').innerText = contactInformation.address;
+        document.getElementById('phone').innerText = contactInformation.phone;
+        document.getElementById('phone').href = 'tel:' + contactInformation.phone;
+        document.getElementById('email').innerText = contactInformation.email;
+        document.getElementById('email').href = 'mailto:' + contactInformation.email;
+    </script>
     </body>
 </html>

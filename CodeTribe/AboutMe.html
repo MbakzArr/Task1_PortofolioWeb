@@ -26,45 +26,37 @@
     <hr>
     <section class="about-section">
         <h2>About Me</h2>
-        <div class="bio">
+        <div id="bio">
             <p>I'm Arehone, a 24-year-old computer science student at the University of Limpopo, specializing in Cybersecurity and Computer Networking. I'm passionate about learning and spend most of my time on online courses to enhance my skills.</p>
             <p>Music has always been a significant part of my life. I grew up playing instruments at church, including drums, piano, and currently learning to play the guitar. Singing is another hobby of mine.</p>
             <p>I'm driven by curiosity and constantly seeking new challenges to broaden my knowledge and experience in the field of technology. I'm enthusiastic about collaborating on innovative projects and contributing positively to the tech community.</p>
     <section class="personal-info"><hr>
         <h2>Personal Information</h2>
-        <p>Full Names: Mbadaliga Arehone</p>
-        <p>Date of Birth: July 29, 2000</p>
-        <p>Email: Mbadaligab@gmail.com</p>
-        <p>Phone: 076 171 4986</p>
+        <p>Full Names: <span id="full-name"></span></p>
+        <p>Date of Birth: <span id="date-of-birth"></span></p>
+        <p>Email: <span id="email"></span></p>
+        <p>Phone: <span id="phone"></span></p>
     </section><hr>
     
     <section class="education">
         <h2>Educational Background</h2>
-        <p>Bachelor of Science Mathematical and Computer Science - University of Limpopo</p>
-        <p>Graduation Year: 2024</p>
+        <p id="education"></p>
     </section><hr>
     
     <section class="projects">
         <h2>Projects</h2>
-        <ul>
-            <li>Project 1: Bilding my home language bot</li>
-            <li>Project 2: Configuring Networks in Packet tracer</li>
-            <li>Project 3: CHPC NICIS Student cluster competition</li>
+        <ul id="projects-list">
         </ul>
     </section><hr>
     
     <section class="work-experience">
         <h2>Working Experience</h2>
-        <p>UL ICT Student COmputing Support Services - Position: Computer Lab Assistant - Duration: 2024-current</p>
-        <p>UL Developers Society - Position: Technician - Duration: 2022-current</p>
-        <p>Christ Tabernacle Pneuma - Position: Sound engineer & General director of music - Duration: 2021-current</p>
+        <p id="work-experience"></p>
     </section><hr>
     
     <section class="additional-info">
         <h2>Additional Information</h2>
-        <p>Languages: English (Fluent), Tshivenda (Home language), Sepedi (Fluent), Xitsonga (Intermediate)</p>
-        <p>Skills: HTML, CSS, JavaScript, Python, Cybersecurity, Computer Networks, Music, Computer repairs and more.</p>
-        <p>Interests: Music, Learning, Photography, Singing</p>
+        <p id="additional-info"></p>
     </section><hr>
         </div>
     </section>
@@ -89,5 +81,15 @@
                 "no-referrer-when-downgrade" ></iframe></p>
         </div>
     </footer>
+    <script src="AboutMe.js"></script>
+    <script>
+        document.getElementById('education').innerText = education;
+    
+    // Update work experience
+        document.getElementById('work-experience').innerText = workExperience;
+    
+    // Update additional information
+        document.getElementById('additional-info').innerText = additionalInfo;
+    </script>
 </body>
 </html>
